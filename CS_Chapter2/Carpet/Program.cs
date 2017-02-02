@@ -9,6 +9,11 @@ namespace Carpet
     {
         static void Main(string[] args)
         {
+            Double L = 5;
+            Double W = 10;
+            Double Total = ((L * 3.5) + (W * 3.5));
+
+            Console.WriteLine("$" + Total);
         }
     }
 }
