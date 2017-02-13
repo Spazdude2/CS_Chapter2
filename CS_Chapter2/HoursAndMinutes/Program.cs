@@ -12,7 +12,7 @@ namespace HoursAndMinutes
             int JobTime = 197;
             int hours = (JobTime / 60);
             int minutes = (JobTime % 60);
-            Console.WriteLine(JobTime + " minutes is " + hours + " hours and " + minutes + " minutes.");
+            Console.WriteLine(JobTime + " minustes is " + hours + " hours and " + minutes + " minutes.");
         }
     }
 }
