@@ -14,7 +14,9 @@ namespace Eggs
             int chick3 = 45;
             int chick4 = 10;
             int total = (chick1 + chick2 + chick3 + chick4);
-            Console.WriteLine("A total of " + total + "");
+            int dozen = (total / 12);
+            int remainder = (total % 12);
+            Console.WriteLine("A total of " + total + " eggs is " + dozen + " dozen and " + remainder + " eggs.");
         }
     }
 }
